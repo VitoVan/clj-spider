@@ -1,6 +1,8 @@
 # clj-spider
 A Clojure Spider for the Web
 
-Just like https://github.com/VitoVan/cl-spider
+This is a **Plan B** for https://github.com/VitoVan/cl-spider
 
-Unfinished.
+Not even started
+
+If I found something hardly to handle in Common Lisp, I'll switch to Clojure - this project, hope this won't happen.
