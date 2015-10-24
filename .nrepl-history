@@ -1,0 +1,17 @@
+(in-ns 'my-project)
+(in-ns 'gfudk_
+)
+(in-ns 'fuck)
+(set-env!
+ :source-paths #{"src"}
+ :dependencies '[[enlive "1.1.6"]])
+(in-ns 'boot.user)
+(set-env!
+ :source-paths #{"src"}
+ :dependencies '[[enlive "1.1.6"]])
+(ns tutorial.scrape1
+  (:require [net.cgrand.enlive-html :as html]))
+(html/html-resource "http://vitovan.com")
+(html/html-resource (java.net.URL "http://vitovan.com"))
+(html/html-resource (java.net.URL . "http://vitovan.com"))
+(html/html-resource (java.net.URL. "http://vitovan.com"))
